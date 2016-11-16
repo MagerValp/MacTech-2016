@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6641451B1DDA1C76004AA66E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6641451A1DDA1C76004AA66E /* Cocoa.framework */; };
+		664145231DDA1C76004AA66E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 664145221DDA1C76004AA66E /* main.m */; };
+		664145261DDA1C76004AA66E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 664145241DDA1C76004AA66E /* Credits.rtf */; };
+		664145291DDA1C76004AA66E /* libpython2.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 664145281DDA1C76004AA66E /* libpython2.7.dylib */; };
+		6641452B1DDA1C76004AA66E /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 6641452A1DDA1C76004AA66E /* main.py */; };
+		6641452D1DDA1C76004AA66E /* AppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 6641452C1DDA1C76004AA66E /* AppDelegate.py */; };
+		664145301DDA1C76004AA66E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6641452E1DDA1C76004AA66E /* MainMenu.xib */; };
+		664145321DDA1C76004AA66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664145311DDA1C76004AA66E /* Assets.xcassets */; };
+		6641453A1DDA1CD9004AA66E /* MainWindowController.py in Resources */ = {isa = PBXBuildFile; fileRef = 664145391DDA1CD9004AA66E /* MainWindowController.py */; };
+		6641453C1DDA1CF1004AA66E /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6641453B1DDA1CF1004AA66E /* MainWindowController.xib */; };
+		669761811DDA204600EEA7AC /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = 669761801DDA204600EEA7AC /* Script.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		664145171DDA1C76004AA66E /* MacTech Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacTech Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6641451A1DDA1C76004AA66E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6641451D1DDA1C76004AA66E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6641451E1DDA1C76004AA66E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6641451F1DDA1C76004AA66E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		664145221DDA1C76004AA66E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		664145251DDA1C76004AA66E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		664145281DDA1C76004AA66E /* libpython2.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpython2.7.dylib; path = /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config/libpython2.7.dylib; sourceTree = "<absolute>"; };
+		6641452A1DDA1C76004AA66E /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		6641452C1DDA1C76004AA66E /* AppDelegate.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = AppDelegate.py; sourceTree = "<group>"; };
+		6641452F1DDA1C76004AA66E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		664145311DDA1C76004AA66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664145331DDA1C76004AA66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664145391DDA1CD9004AA66E /* MainWindowController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MainWindowController.py; sourceTree = "<group>"; };
+		6641453B1DDA1CF1004AA66E /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		669761801DDA204600EEA7AC /* Script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664145141DDA1C76004AA66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664145291DDA1C76004AA66E /* libpython2.7.dylib in Frameworks */,
+				6641451B1DDA1C76004AA66E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6641450E1DDA1C76004AA66E = {
+			isa = PBXGroup;
+			children = (
+				664145201DDA1C76004AA66E /* MacTech Demo */,
+				664145191DDA1C76004AA66E /* Frameworks */,
+				664145181DDA1C76004AA66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		664145181DDA1C76004AA66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664145171DDA1C76004AA66E /* MacTech Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664145191DDA1C76004AA66E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6641451A1DDA1C76004AA66E /* Cocoa.framework */,
+				6641451C1DDA1C76004AA66E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6641451C1DDA1C76004AA66E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6641451D1DDA1C76004AA66E /* AppKit.framework */,
+				6641451E1DDA1C76004AA66E /* CoreData.framework */,
+				6641451F1DDA1C76004AA66E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		664145201DDA1C76004AA66E /* MacTech Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6641452A1DDA1C76004AA66E /* main.py */,
+				6641452C1DDA1C76004AA66E /* AppDelegate.py */,
+				669761801DDA204600EEA7AC /* Script.sh */,
+				664145391DDA1CD9004AA66E /* MainWindowController.py */,
+				6641453B1DDA1CF1004AA66E /* MainWindowController.xib */,
+				6641452E1DDA1C76004AA66E /* MainMenu.xib */,
+				664145311DDA1C76004AA66E /* Assets.xcassets */,
+				664145331DDA1C76004AA66E /* Info.plist */,
+				664145271DDA1C76004AA66E /* SharedLibraries */,
+				664145211DDA1C76004AA66E /* Supporting Files */,
+			);
+			path = "MacTech Demo";
+			sourceTree = "<group>";
+		};
+		664145211DDA1C76004AA66E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				664145221DDA1C76004AA66E /* main.m */,
+				664145241DDA1C76004AA66E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		664145271DDA1C76004AA66E /* SharedLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				664145281DDA1C76004AA66E /* libpython2.7.dylib */,
+			);
+			name = SharedLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664145161DDA1C76004AA66E /* MacTech Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664145361DDA1C76004AA66E /* Build configuration list for PBXNativeTarget "MacTech Demo" */;
+			buildPhases = (
+				664145131DDA1C76004AA66E /* Sources */,
+				664145141DDA1C76004AA66E /* Frameworks */,
+				664145151DDA1C76004AA66E /* Resources */,
+				669761821DDA206600EEA7AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MacTech Demo";
+			productName = "MacTech Demo";
+			productReference = 664145171DDA1C76004AA66E /* MacTech Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6641450F1DDA1C76004AA66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MacTech;
+				TargetAttributes = {
+					664145161DDA1C76004AA66E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 664145121DDA1C76004AA66E /* Build configuration list for PBXProject "MacTech Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6641450E1DDA1C76004AA66E;
+			productRefGroup = 664145181DDA1C76004AA66E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664145161DDA1C76004AA66E /* MacTech Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664145151DDA1C76004AA66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6641453C1DDA1CF1004AA66E /* MainWindowController.xib in Resources */,
+				664145261DDA1C76004AA66E /* Credits.rtf in Resources */,
+				6641452D1DDA1C76004AA66E /* AppDelegate.py in Resources */,
+				6641452B1DDA1C76004AA66E /* main.py in Resources */,
+				664145301DDA1C76004AA66E /* MainMenu.xib in Resources */,
+				664145321DDA1C76004AA66E /* Assets.xcassets in Resources */,
+				6641453A1DDA1CD9004AA66E /* MainWindowController.py in Resources */,
+				669761811DDA204600EEA7AC /* Script.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		669761821DDA206600EEA7AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "chmod +x \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/Script.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664145131DDA1C76004AA66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664145231DDA1C76004AA66E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		664145241DDA1C76004AA66E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664145251DDA1C76004AA66E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6641452E1DDA1C76004AA66E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6641452F1DDA1C76004AA66E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664145341DDA1C76004AA66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		664145351DDA1C76004AA66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		664145371DDA1C76004AA66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MacTech Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mactech.MacTech-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		664145381DDA1C76004AA66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MacTech Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mactech.MacTech-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664145121DDA1C76004AA66E /* Build configuration list for PBXProject "MacTech Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664145341DDA1C76004AA66E /* Debug */,
+				664145351DDA1C76004AA66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664145361DDA1C76004AA66E /* Build configuration list for PBXNativeTarget "MacTech Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664145371DDA1C76004AA66E /* Debug */,
+				664145381DDA1C76004AA66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6641450F1DDA1C76004AA66E /* Project object */;
+}

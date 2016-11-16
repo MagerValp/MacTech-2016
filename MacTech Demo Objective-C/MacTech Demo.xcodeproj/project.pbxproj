@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660305CF1DDA180500916663 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660305CE1DDA180500916663 /* AppDelegate.m */; };
+		660305D21DDA180500916663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660305D11DDA180500916663 /* main.m */; };
+		660305D41DDA180500916663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660305D31DDA180500916663 /* Assets.xcassets */; };
+		660305D71DDA180500916663 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660305D51DDA180500916663 /* MainMenu.xib */; };
+		660305E11DDA182F00916663 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660305DF1DDA182F00916663 /* MainWindowController.m */; };
+		660305E21DDA182F00916663 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660305E01DDA182F00916663 /* MainWindowController.xib */; };
+		660305E51DDA1AB100916663 /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = 660305E41DDA1AB100916663 /* Script.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		660305CA1DDA180500916663 /* MacTech Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacTech Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660305CD1DDA180500916663 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		660305CE1DDA180500916663 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		660305D11DDA180500916663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660305D31DDA180500916663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		660305D61DDA180500916663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		660305D81DDA180500916663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660305DE1DDA182F00916663 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		660305DF1DDA182F00916663 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		660305E01DDA182F00916663 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		660305E41DDA1AB100916663 /* Script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660305C71DDA180500916663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660305C11DDA180500916663 = {
+			isa = PBXGroup;
+			children = (
+				660305CC1DDA180500916663 /* MacTech Demo */,
+				660305CB1DDA180500916663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660305CB1DDA180500916663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660305CA1DDA180500916663 /* MacTech Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660305CC1DDA180500916663 /* MacTech Demo */ = {
+			isa = PBXGroup;
+			children = (
+				660305CD1DDA180500916663 /* AppDelegate.h */,
+				660305CE1DDA180500916663 /* AppDelegate.m */,
+				660305DE1DDA182F00916663 /* MainWindowController.h */,
+				660305DF1DDA182F00916663 /* MainWindowController.m */,
+				660305E01DDA182F00916663 /* MainWindowController.xib */,
+				660305D31DDA180500916663 /* Assets.xcassets */,
+				660305D51DDA180500916663 /* MainMenu.xib */,
+				660305D81DDA180500916663 /* Info.plist */,
+				660305D01DDA180500916663 /* Supporting Files */,
+				660305E41DDA1AB100916663 /* Script.sh */,
+			);
+			path = "MacTech Demo";
+			sourceTree = "<group>";
+		};
+		660305D01DDA180500916663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660305D11DDA180500916663 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660305C91DDA180500916663 /* MacTech Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660305DB1DDA180500916663 /* Build configuration list for PBXNativeTarget "MacTech Demo" */;
+			buildPhases = (
+				660305C61DDA180500916663 /* Sources */,
+				660305C71DDA180500916663 /* Frameworks */,
+				660305C81DDA180500916663 /* Resources */,
+				660305E31DDA1A8200916663 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MacTech Demo";
+			productName = "MacTech Demo";
+			productReference = 660305CA1DDA180500916663 /* MacTech Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660305C21DDA180500916663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MacTech;
+				TargetAttributes = {
+					660305C91DDA180500916663 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 660305C51DDA180500916663 /* Build configuration list for PBXProject "MacTech Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660305C11DDA180500916663;
+			productRefGroup = 660305CB1DDA180500916663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660305C91DDA180500916663 /* MacTech Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660305C81DDA180500916663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660305D41DDA180500916663 /* Assets.xcassets in Resources */,
+				660305E21DDA182F00916663 /* MainWindowController.xib in Resources */,
+				660305D71DDA180500916663 /* MainMenu.xib in Resources */,
+				660305E51DDA1AB100916663 /* Script.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		660305E31DDA1A8200916663 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "chmod +x \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/Script.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660305C61DDA180500916663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660305E11DDA182F00916663 /* MainWindowController.m in Sources */,
+				660305D21DDA180500916663 /* main.m in Sources */,
+				660305CF1DDA180500916663 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		660305D51DDA180500916663 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660305D61DDA180500916663 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660305D91DDA180500916663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		660305DA1DDA180500916663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		660305DC1DDA180500916663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MacTech Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mactech.MacTech-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		660305DD1DDA180500916663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MacTech Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mactech.MacTech-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660305C51DDA180500916663 /* Build configuration list for PBXProject "MacTech Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660305D91DDA180500916663 /* Debug */,
+				660305DA1DDA180500916663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660305DB1DDA180500916663 /* Build configuration list for PBXNativeTarget "MacTech Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660305DC1DDA180500916663 /* Debug */,
+				660305DD1DDA180500916663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660305C21DDA180500916663 /* Project object */;
+}
