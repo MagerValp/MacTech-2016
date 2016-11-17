@@ -36,7 +36,7 @@ NB: If the script outputs more data than will fit in the pipe's buffer (which is
 
 ### Multithreading (beachballs)
 
-If your script takes more than a couple of seconds to run it's going to block with a beachball. I would recommend adding an NSProgressIndicator (spinner) that you start when the script runs, and well as disabling the button (you'll need an outlet to the button). Then instead of `waitUntilExit()` add a `terminationHandler` with a block of code that stops the spinner and re-enables the button.
+If your script takes more than a couple of seconds to run it's going to block with a beachball. I would recommend adding an NSProgressIndicator (spinner) that you start when the script runs, and well as disabling the button (you'll need an outlet to the button). Then instead of `waitUntilExit()` add a `terminationHandler` with a block of code that stops the spinner and re-enables the button. As your `terminationHandler` code will be executed in a background thread, you have to update your view objects from code wrapped in `DispatchQueue.main.async`, as only the main program thread can manipulate them.
 
 
 ### Speak when pressing return
