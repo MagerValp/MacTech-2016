@@ -40,8 +40,9 @@ class MainWindowController: NSWindowController {
             print("Script exited with status \(scriptProcess.terminationStatus)")
             
             let stdoutData = stdoutPipe.fileHandleForReading.readDataToEndOfFile()
-            let stdout = NSString(data: stdoutData, encoding: String.Encoding.utf8.rawValue)
-            print("Received stdout: \(stdout)")
+            if let stdout = NSString(data: stdoutData, encoding: String.Encoding.utf8.rawValue) {
+                print("Received stdout: \(stdout)")
+            }
             
         } else {
             print("Couldn't find Script.sh")
