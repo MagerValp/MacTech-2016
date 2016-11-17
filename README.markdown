@@ -31,7 +31,7 @@ if let stdout = NSString(data: stdoutData, encoding: String.Encoding.utf8.rawVal
 }
 ```
 
-NB: If the script outputs more data than will fit in the pipe's buffer (which is on the order of 8 kB or so), it'll hang waiting for it to be emptied. For reading large amounts of data, loop over task.isRunning and read to an `NSMutableData` buffer.
+NB: If the script outputs more data than will fit in the pipe's buffer (which is on the order of 8 kB or so), it'll hang waiting for it to be emptied. For reading large amounts of data, loop over `task.isRunning` and read to an `NSMutableData` buffer.
 
 
 ### Multithreading (beachballs)
