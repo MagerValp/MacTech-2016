@@ -10,7 +10,7 @@ Things I Didn't Have Time To Cover
 
 ### Capturing stdout and exit status
 
-To capture the output from your shell script, create an `NSPipe`, assign that to the `NSTask`'s `standardInput`, and then read it using the pipe's `fileHandleForReading`. Exit status is available in `.terminationStatus`.
+To capture the output from your shell script, create an `NSPipe`, assign that to the `NSTask`'s `standardInput`, and then read it using the pipe's `fileHandleForReading`. Exit status is available in `terminationStatus`.
 
 ```swift
 let scriptProcess = Process()
